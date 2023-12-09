@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item2"
+        android:title="@string/title_rehoming"
+        android:icon="@drawable/ic_rehoming"/>
+
+    <item
+        android:id="@+id/item0"
+        android:title="@string/title_health"
+        android:icon="@drawable/ic_pethealth"/>
+
+    <item
+        android:id="@+id/item3"
+        android:title="@string/title_vet"
+        android:icon="@drawable/ic_vet"/>
+</menu>

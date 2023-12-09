@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#393939</color>
+    <color name="colorPrimaryDark">#393939</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="bg_darkmode">#434343</color>
+    <color name="indicator">#FF0000</color>
+    <color name="fab">#AC1919</color>
+    <color name="settings">#DADADA</color>
+    <color name="rehoming_post">#5A5A5A</color>
+
+    <color name="btn1">#393939</color>
+    <color name="btn2">#AC1919</color>
+
+
+    <color name="firstlayer">#6E6E6E</color>
+
+    <color name="rhusername">#CCFFFFFF</color>
+
+    <color name="endcolor">#393939</color>
+    <color name="login_details">#CCFFFFFF</color>
+    <color name="login_details_light">#1AFFFFFF</color>
+    <color name="login_details_medium">#66FFFFFF</color>
+
+</resources>

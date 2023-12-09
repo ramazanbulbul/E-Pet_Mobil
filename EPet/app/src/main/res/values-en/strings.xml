@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ePet</string>
+    <string name="title_addpet">Add Pet</string>
+    <string name="title_rehoming">Rehoming</string>
+    <string name="title_vet">Vets</string>
+    <string name="settings">Settings</string>
+    <string name="email">Email Address</string>
+    <string name="password">Password</string>
+    <string name="loginnow">Login Now</string>
+    <string name="forgotpassword">Don\'t remember password ?</string>
+    <string name="sign_in">Dont have an a account ?</string>
+    <string name="title_health">Health Reports</string>
+    <string name="facebook">Sign in with Facebook</string>
+    <string name="or">Or</string>
+    <string name="pasword_again">Password Again</string>
+    <string name="user_name">User Name</string>
+    <string name="register">Register</string>
+    <string name="title_activity_vets">Map</string>
+    <string name="addp">You haven\'t added any pets yet</string>
+    <string name="pref_dark_title">Dark Mode</string>
+    <string name="pref_dark_summary">For your eye health, the application turns dark shades</string>
+    <string name="pref_password_summary">Replace your current password with a new one</string>
+    <string name="pref_password_title">Change Password</string>
+    <string name="pref_ppicture_summary">Replace existing profile picture with a new one</string>
+    <string name="pref_ppicture_title">Change Your Profile Picture</string>
+    <string name="pet_id">"ID : "</string>
+    <string name="pet_age">"Date of birth : "</string>
+    <string name="pet_type">"Type : "</string>
+    <string name="pet_genus">"Genus : "</string>
+    <string name="quit_master">Leave application?</string>
+    <string name="pet_name">"Name : "</string>
+    <string name="quit">Are you sure you want to leave the application?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="send_pass">Send Password</string>
+    <string name="pref_phone_title">Phone number</string>
+    <string name="pref_phone_summary">Add or change a phone number</string>
+    <string name="pref_adress_title">Address</string>
+    <string name="pref_adress_summary">Add or change an address</string>
+    <string name="pref_username_title">Change username</string>
+    <string name="pref_username_summary">Replace existing username with a new one</string>
+    <string name="pref_delete_title">Delete my account</string>
+</resources>

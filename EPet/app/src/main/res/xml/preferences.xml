@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <EditTextPreference
+        android:icon="@drawable/ic_usernamechange"
+        android:key="pref_username"
+        android:summary="@string/pref_username_summary"
+        android:title="@string/pref_username_title" />
+
+
+    <EditTextPreference
+        android:key="pref_phone"
+        android:icon="@drawable/ic_phonechange"
+        android:title="@string/pref_phone_title"
+        android:summary="@string/pref_phone_summary"/>
+
+    <EditTextPreference
+        android:key="pref_adress"
+        android:icon="@drawable/ic_adresschange"
+        android:title="@string/pref_adress_title"
+        android:summary="@string/pref_adress_summary"/>
+
+    <Preference
+        android:key="pref_deleteaccount"
+        android:title="@string/pref_delete_title"
+        android:summary="@string/pref_delete_summary"
+        android:icon="@drawable/ic_deleteaccount"/>
+
+</PreferenceScreen>

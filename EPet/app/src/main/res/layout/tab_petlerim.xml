@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:id="@+id/petDetail2"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/second_layer">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="@drawable/first_layer">
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="142dp"
+                    android:layout_height="142dp"
+                    android:elevation="12dp"
+                    android:id="@+id/view2"
+                    app:cardCornerRadius="500dp"
+                    android:layout_centerHorizontal="true"
+                    android:visibility="invisible"
+                    >
+
+                    <ImageView
+                        android:id="@+id/pet_image"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:scaleType="centerCrop"/>
+
+                </androidx.cardview.widget.CardView>
+                <TextView
+                    android:id="@+id/pet_name"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="22sp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:text="Henüz bir pet eklemediniz" />
+
+                <TextView
+                    android:id="@+id/pet_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textStyle="normal"
+                    android:text="ID : 2492451234"
+                    android:layout_marginTop="5px"
+                    android:layout_marginBottom="50px"
+                    android:visibility="invisible"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/petDetail"
+                android:paddingLeft="50px"
+                android:paddingTop="70px"
+                android:paddingBottom="70px"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/second_layer"
+                android:visibility="invisible">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Doğum Tarihi"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/pet_age"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="19/04/2018"
+                        android:textColor="@color/login_details"
+                        android:textSize="18sp"
+                        android:textStyle="bold"/>
+
+
+                </LinearLayout>
+                <View
+                    android:layout_width="1px"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20px"
+                    android:layout_marginRight="20px"
+                    android:background="#FFFFFF"/>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tür"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/pet_type"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Kedi"
+                        android:textColor="@color/login_details"
+                        android:textSize="18sp"
+                        android:textStyle="bold"/>
+
+
+                </LinearLayout>
+                <View
+                    android:layout_width="1px"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20px"
+                    android:layout_marginRight="20px"
+                    android:background="#FFFFFF"/>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Cins"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/pet_genus"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Düz Kedi"
+                        android:textColor="@color/login_details"
+                        android:textSize="18sp"
+                        android:textStyle="bold"/>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:gravity="center"
+            android:paddingTop="10px">
+
+
+            <Button
+                android:id="@+id/button_pet_add"
+                android:text="Pet Ekle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/addbutton"
+                android:minWidth="300dp"
+                android:textColor="#fff"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/pet_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="10dp"
+        android:clickable="true"
+        android:visibility="invisible"
+        app:backgroundTint="@color/fab"
+        app:srcCompat="@drawable/ic_add" />
+
+</RelativeLayout>

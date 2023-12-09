@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "659690872035",
+    "firebase_url": "https://epet-9c4d0.firebaseio.com",
+    "project_id": "epet-9c4d0",
+    "storage_bucket": "epet-9c4d0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:659690872035:android:5077a9aac9ffedfd17b9d6",
+        "android_client_info": {
+          "package_name": "com.epet.epet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "659690872035-m59cnsnhasjaoasr75n72nchn5sbf88o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDg2AynCS_5fExs6zmprKfChcakoCTeTa0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "659690872035-m59cnsnhasjaoasr75n72nchn5sbf88o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

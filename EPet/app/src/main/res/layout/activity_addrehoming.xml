@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddRehomingActivity"
+    android:id="@+id/login_layout"
+    android:background="@drawable/bg_login">
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="24dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="24dp" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/addrehoming_image"
+        android:layout_width="290dp"
+        android:layout_height="218dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/btn_bg"
+        android:clickable="true"
+        android:src="@drawable/ic_add_image"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_right"
+        app:layout_constraintStart_toStartOf="@+id/guideline_left"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+    <Spinner
+        android:id="@+id/spinnerPet"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/btn_bg"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_right"
+        app:layout_constraintStart_toStartOf="@+id/guideline_left"
+        app:layout_constraintTop_toBottomOf="@+id/addrehoming_image" />
+
+    <EditText
+        android:id="@+id/rehoming_aciklama"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:textColorHint="@color/login_details_medium"
+        android:textColor="@color/login_details"
+        android:background="@drawable/et_bg"
+        android:hint="Açıklama"
+        android:padding="16dp"
+        android:inputType="textMultiLine"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_right"
+        app:layout_constraintStart_toStartOf="@+id/guideline_left"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerPet" />
+
+
+
+    <Button
+        android:id="@+id/btn_petadd"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Ekle"
+        android:layout_marginEnd="0dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="16dp"
+        android:textAllCaps="false"
+        android:textColor="@color/login_details_medium"
+        android:background="@drawable/btn_bg"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_right"
+        app:layout_constraintStart_toStartOf="@+id/guideline_left"
+        app:layout_constraintTop_toBottomOf="@+id/rehoming_aciklama"
+        tools:ignore="MissingConstraints" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

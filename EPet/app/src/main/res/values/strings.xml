@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">ePet</string>
+    <string name="title_activity_main2" translatable="false">Main2Activity</string>
+
+    <string name="title_addpet">Pet Ekle</string>
+    <string name="title_health">Sağlık Karnesi</string>
+    <string name="title_rehoming">Sahiplendirme</string>
+    <string name="title_vet">Veterinerler</string>
+    <string name="settings">Ayarlar</string>
+    <string name="email">E-Posta Adresi</string>
+    <string name="password">Şifre</string>
+    <string name="loginnow">Giriş Yap</string>
+    <string name="forgotpassword">Şifreni mi unuttun ?</string>
+    <string name="sign_in">Hesabın yok mu ?</string>
+    <string name="facebook">Facebook ile giriş yap</string>
+    <string name="or">veya</string>
+    <string name="pasword_again">Şifre Tekrar</string>
+    <string name="user_name">Kullanıcı Adı</string>
+    <string name="register">Kayıt Ol</string>
+    <string name="title_activity_vets">Harita</string>
+    <string name="addp">Henüz bir evcil hayvan eklemediniz</string>
+    <string name="pref_dark_title">Karanlık Mod</string>
+    <string name="pref_dark_summary">Göz sağlığınız için uygulama koyu renk tonlarına döner</string>
+    <string name="pref_password_title">Şifre Değiştir</string>
+    <string name="pref_password_summary">Mevcut şifreni bir yenisiyle değiştir</string>
+    <string name="pref_username_title">Kullanıcı adını değiştir</string>
+    <string name="pref_username_summary">Mevcut kullanıcı adını bir yenisiyle değiştir</string>
+    <string name="pref_phone_title">Telefon Numarası</string>
+    <string name="pref_phone_summary">Bir telefon numarası ekle veya değiştir</string>
+    <string name="pref_adress_title">Adres</string>
+    <string name="pref_adress_summary">Bir adres ekle veya değiştir</string>
+    <string name="pref_delete_title">Hesabımı sil</string>
+    <string name="pref_delete_summary">Hesabımı kalıcı olarak sil</string>
+
+    <string name="pet_name">Adı : </string>
+    <string name="pet_id">ID : </string>
+    <string name="pet_age">Doğum Tarihi : </string>
+    <string name="pet_type">Tür : </string>
+    <string name="pet_genus">Cins : </string>
+    <string name="quit_master">Uygulamayı terket?</string>
+    <string name="quit">Uygulamadan ayrılmak istediğinizden emin misiniz?</string>
+    <string name="title_activity_settings">Ayarlar</string>
+    <string name="yes">Evet</string>
+    <string name="no">Hayır</string>
+    <string name="send_pass">Şifre Gönder</string>
+
+    <!--Auth Description-->
+    <string name="login_success">Giriş yapılıyor...</string>
+    <string name="auth_data_empty">Lütfen boş alan bırakmayınız!</string>
+    <string name="auth_email_error">Lütfen düzgün bir eposta adresi giriniz!</string>
+    <string name="register_password_validate_error">Şifreleriniz eşleşmemektedir!</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="reset_password_message">Epostanızı kontrol edin!</string>
+    <string name="title_activity_addpet">Pet Ekle</string>
+    <string name="loading_data">Veriler yükleniyor</string>
+    <string name="title_activity_rehoming">Sahiplendirme ekle</string>
+
+</resources>
